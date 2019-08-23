@@ -3,7 +3,7 @@
 def binary_search(input_array, value):
     m=0
     n=len(input_array)-1
-    while(m!=n):
+    while(m<=n):
         if(value>input_array[(m+n)//2]):
             m=((m+n)//2)+1
         elif(value<input_array[(m+n)//2]):
